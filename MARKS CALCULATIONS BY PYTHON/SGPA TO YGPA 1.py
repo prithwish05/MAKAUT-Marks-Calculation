@@ -1,0 +1,8 @@
+a=float(input("Enter your odd sem SGPA : "))
+b=((a*10)-7.5)
+print("Percentage of odd sem is :",b,"%")
+c=float(input("Enter your even sem SGPA : "))
+d=((c*10)-7.5)
+print("Percentage of even sem is :",d,"%")
+e=((a+c)/2)
+print("Your one year YGPA is :",e)
